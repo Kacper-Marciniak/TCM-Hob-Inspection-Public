@@ -25,17 +25,17 @@ Multifunctional system for the automatic inspection of gear hobbing tools, featu
 - PyTorch 2.0
 - NVIDIA CUDA 11.8
 
-## Project Status
+## Features
 
-Project is: _in progress_ 
+**Broach wear map.**
+<p align="center"><img src="readmeImages/ScanningExample.png" width=75%></p>
 
-## Experiments tracking
-
-Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
+**Automatic report generation.**
+<p align="center"><img src="readmeImages/RaportExample.png"></p>
 
 ## Organisations involved in the project development
 
-<div align=center><table>
+<div align=center><table style="background-color:white">
   <tr>
     <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
     <th><a href="https://mvlab.pl/">Machine Vision Laboratory</a></th>

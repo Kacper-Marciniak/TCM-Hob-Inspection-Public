@@ -27,7 +27,7 @@ Multifunctional system for the automatic inspection of gear hobbing tools, featu
 
 ## Features
 
-**Broach wear map.**
+**Hob wear map.**
 <p align="center"><img src="readmeImages/ScanningExample.png" width=75%></p>
 
 **Automatic report generation.**

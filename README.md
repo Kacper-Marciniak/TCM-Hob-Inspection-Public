@@ -11,7 +11,7 @@ Multifunctional system for the automatic inspection of gear hobbing tools, featu
 
 ## Machine learning solutions
 
-- **Detectron2 models** based on the ResNET architecture
+- Two stage inference with **YOLOv8 object detection model** and **Segment Anything Model (SAM)**
 - Supervised learning using **custom datasets**
 - Annotations with artifacts saved in .json format, compatible with **LabelMe software**
 - System for **semi-automatic datasets creation**
@@ -21,7 +21,7 @@ Multifunctional system for the automatic inspection of gear hobbing tools, featu
 ## Technologies used
 
 - Python 3.11
-- Detectron2 v0.6
+- YOLOv8
 - PyTorch 2.0
 - NVIDIA CUDA 11.8
 
@@ -47,4 +47,3 @@ Multifunctional system for the automatic inspection of gear hobbing tools, featu
     <td width=33%><p align="center"><img src="readmeImages/TCM-logo-text.png" height="75"></p></td>
   </tr>
 </table></div>
-

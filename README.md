@@ -20,7 +20,7 @@ The **TCM Hob Inspector** is an advanced, multifunctional system designed for th
 - **SQL database**:
   - Secure storage for scan results and analysis data.
 
-<p align="center"><img src="ReadmeImages/scanner.png"></p>
+<p align="center"><img src="readmeImages/scanner.png"></p>
 
 ---
 

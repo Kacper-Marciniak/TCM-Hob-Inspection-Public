@@ -11,8 +11,6 @@ The **TCM Hob Inspector** is an advanced, multifunctional system designed for th
 - **Hybrid classic and ML-driven image processing**:
   - Segmentation of tooth rake faces and surface anomalies using ML models.
   - Segmentation of flank wear with classic machine vision methods.
-- **3D analysis system**:
-  - Laser profilometer for measuring tooth height and detecting surface anomalies.
 - **Cost optimization module**:
   - Analyses tool state and suggests optimal grinding method to maximize lifecycle profitability.
 - **Interactive Dash application**:

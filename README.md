@@ -2,48 +2,77 @@
 
 # TCM Hob Inspector
 
-## General information
+## Overview
 
-Multifunctional system for the automatic inspection of gear hobbing tools, featuring:
-* **AI-based image processing system**
-* Dash based **interactive application**
-* **SQL database** for storing the results of the performed scans
+The **TCM Hob Inspector** is an advanced, multifunctional system designed for the automatic inspection of gear hobbing tools. It employs advanced ML technologies to enhance efficiency, precision, and cost-effectiveness in tool maintenance processes.
 
-## Machine learning solutions
+### Key Features:
 
-- Two stage inference with **YOLOv8 object detection model** and **Segment Anything Model (SAM)**
-- Supervised learning using **custom datasets**
-- Annotations with artifacts saved in .json format, compatible with **LabelMe software**
-- System for **semi-automatic datasets creation**
-- Custom python scripts for training and evaluation of AI models 
-- Model comparison and performance tracking using **Neptune.AI**
+- **Hybrid classic and ML-driven image processing**:
+  - Segmentation of tooth rake faces and surface anomalies using ML models.
+  - Segmentation of flank wear with classic machine vision methods.
+- **3D analysis system**:
+  - Laser profilometer for measuring tooth height and detecting surface anomalies.
+- **Cost optimization module**:
+  - Analyses tool state and suggests optimal grinding method to maximize lifecycle profitability.
+- **Interactive Dash application**:
+  - Enables result visualization, selection of machining parameters, and generation of detailed tool scan reports.
+- **SQL database**:
+  - Secure storage for scan results and analysis data.
 
-## Technologies used
+<p align="center"><img src="ReadmeImages/scanner.png"></p>
 
-- Python 3.11
-- YOLOv8
-- PyTorch 2.0
-- NVIDIA CUDA 11.8
+---
 
-## Features
+## Machine Learning Solutions
 
-**Hob wear map.**
-<p align="center"><img src="readmeImages/ScanningExample.png" width=75%></p>
+- Dual inference using **YOLOv8 instance segmentation model** and classic machine vision methods
+- Supervised learning with **custom datasets**
+- Annotations with artifacts saved in `.json` format, compatible with **LabelMe software**
+- **Semi-automatic dataset creation** system
+- Data collection during the production cycle for model development
+- Custom Python scripts for training and evaluating ML models
 
-**Automatic report generation.**
+---
+
+## Visualization and Reporting
+The project includes a powerful visualization application to analyze and interpret inspection results effectively:
+
+### Examples:
+
+**Hob Wear Map**
+<p align="center"><img src="readmeImages/ScanningExample.png" width="75%"></p>
+
+**Automatic Report Generation**
 <p align="center"><img src="readmeImages/RaportExample.png"></p>
 
-## Organisations involved in the project development
+---
 
-<div align=center><table style="background-color:white">
-  <tr>
-    <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
-    <th><a href="https://mvlab.pl/">Machine Vision Laboratory</a></th>
-    <th><a href="https://www.tcm-international.com/">TCM International</a></th>
-  </tr>
-  <tr>
-    <td width=33%><p align="center"><img src="readmeImages/pwr-logo.png" height="100"></p></td>
-    <td width=33%><p align="center"><img src="readmeImages/mv-logo.png" height="100"></p></td>
-    <td width=33%><p align="center"><img src="readmeImages/TCM-logo-text.png" height="75"></p></td>
-  </tr>
-</table></div>
+## Video Demonstration
+
+Learn more about the **Hob Inspector** by watching our demonstration video on YouTube.
+
+<p align="center">
+  <a href="https://youtu.be/zdKuHlUXVqI" target="_blank">
+    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Hob Inspector Video" width="70%">
+  </a>
+</p>
+
+---
+
+## Collaborators
+
+<div align="center">
+  <table style="background-color:white">
+    <tr>
+      <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
+      <th><a href="https://mvlab.pl/">Machine Vision Laboratory</a></th>
+      <th><a href="https://www.tcm-international.com/">TCM International</a></th>
+    </tr>
+    <tr>
+      <td width="33%"><p align="center"><img src="readmeImages/pwr-logo.png" height="100"></p></td>
+      <td width="33%"><p align="center"><img src="readmeImages/mv-logo.png" height="100"></p></td>
+      <td width="33%"><p align="center"><img src="readmeImages/TCM-logo-text.png" height="75"></p></td>
+    </tr>
+  </table>
+</div>

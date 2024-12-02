@@ -6,6 +6,8 @@
 
 The **TCM Hob Inspector** is an advanced, multifunctional system designed for the automatic inspection of gear hobbing tools. It employs advanced ML technologies to enhance efficiency, precision, and cost-effectiveness in tool maintenance processes.
 
+<p align="center"><img src="ReadmeImages/hob_system_overview.png" width=75%></p>
+
 ### Key Features:
 
 - **Hybrid classic and ML-driven image processing**:
@@ -17,8 +19,6 @@ The **TCM Hob Inspector** is an advanced, multifunctional system designed for th
   - Enables result visualization, selection of machining parameters, and generation of detailed tool scan reports.
 - **SQL database**:
   - Secure storage for scan results and analysis data.
-
-<p align="center"><img src="readmeImages/scanner.png"></p>
 
 ---
 
@@ -52,9 +52,13 @@ Learn more about the **Hob Inspector** by watching our demonstration video on Yo
 
 <p align="center">
   <a href="https://youtu.be/zdKuHlUXVqI" target="_blank">
-    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Hob Inspector Video" width="70%">
+    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Hob Inspector Video" width="50%">
   </a>
 </p>
+
+---
+
+<p align="center"><img src="readmeImages/scanner.png"></p>
 
 ---
 
